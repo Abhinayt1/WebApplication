@@ -2,7 +2,7 @@ name: "cicd build and deploys"
 on: ["pull_request","push","workflow_dispatch"]
 
 env:
-  AZURE_WEBAPP_NAME: 'WebAppTest65'
+  AZURE_WEBAPP_NAME: 'WebApplication77'
   AZURE_WEBAPP_PACKAGE_PATH: './myapp'
   DOTNET_VERSION: '5.0' 
   #NETCORE_VERSION: '5.0.x'
