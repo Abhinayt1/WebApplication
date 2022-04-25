@@ -1,0 +1,17 @@
+  name: Testing
+  on:
+   workflow_dispatch:
+
+  jobs: 
+   ci: 
+      name: Setting up Configuration
+      runs-on: ubuntu-latest
+      steps:
+      
+       - name: Checkout
+         uses: actions/checkout@v2
+         with:
+           repository: archinsurance-bsl/WebDemo
+           run: |
+            echo "File checkout successfully"
+            
