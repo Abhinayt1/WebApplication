@@ -12,6 +12,7 @@
          uses: actions/checkout@v2
          with:
            repository: archinsurance-bsl/WebDemo
+           path: './shared'
            run: |
             echo "File checkout successfully"
             
